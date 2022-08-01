@@ -1,0 +1,45 @@
+@media (max-width: 620px) {
+    .pokemon-slider {
+        padding: 0 15px;
+        gap: 10px;
+    }
+
+    .btn-seta {
+        width: 20px;
+        height: 20px;
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .cabecalho .titulo{
+        font-size: 150%;
+    }
+
+    .cabecalho .icone {
+        width: 35px;
+        height: 35px;
+    }
+
+    .lista-masterfair {
+        height: 480px;
+    }
+    .cartao .infocard .nome {
+        font-size: 16px;
+    }
+    .cartao .links{
+        padding: 2px;
+    }
+
+    .cartao .descricao .titulo {
+        font-size: 14px;
+        padding: 3px;
+    }
+
+    .cartao .descricao .texto {
+        font-size: 10px;
+    }
+
+    
+}
