@@ -1,35 +1,14 @@
-const btnGo = document.getElementById("btn-avancar");
-const btnBack = document.getElementById("btn-voltar");
 const cards = document.querySelectorAll(".cartao");
+const icon = document.querySelectorAll(".icon");
 
-let current = 0;
+icon.forEach((icon) => {
+  icon.addEventListener("click", () => {
+    const openedCard = document.querySelector(".selecionado");
+    openedCard.classList.remove("selecionado");
 
-function hideCardSelect(){
-    const cardSelect = document.querySelector(".selecionado");
-    cardSelect.classList.remove("selecionado");
-}
+    const selectedId = icon.attributes.id.value;
 
-function showCard (index){
-    cards[index].classList.add("selecionado");
-}
-
-
-btnGo.addEventListener("click", function(){
-    if(current === cards.length -1) return;
-  
-    hideCardSelect();
-
-    current++;
-    showCard(current);
-       
-})
-
-
-btnBack.addEventListener('click', function(){ 
-    if(current === 0) return;
-  
-    hideCardSelect();
-
-    current--;
-    showCard(current);    
-})
+    const toOpenCard = document.getElementById(selectedId);
+    toOpenCard.classList.add("selecionado");
+  });
+});

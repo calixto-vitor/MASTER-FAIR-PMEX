@@ -36,12 +36,23 @@
       <img src="./src/images/pmex.png" alt="PMEX ICON" class="icone" />
       <h1 class="titulo">MASTER FAIR - PMEX</h1>
     </header>
+    <div class="social">
+      <a href="https://www.youtube.com/c/CalixtoFull" target="_blank"
+        ><i class="fab fa-youtube"></i
+      ></a>
+      <a href="https://www.instagram.com/invictusgameplay/" target="_blank"
+        ><i class="fab fa-instagram"></i
+      ></a>
+      <a href="https://twitter.com/FullCalixto" target="_blank"
+        ><i class="fab fa-twitter"></i
+      ></a>
+      <a href="https://discord.gg/QuMMcW28Gf" target="_blank"
+        ><i class="fab fa-discord"></i>
+      </a>
+    </div>
     <main class="pokemon-slider">
-      <button class="btn-seta btn-voltar" id="btn-voltar">
-        <img src="./src/images/seta.png" alt="Seta - Voltar" />
-      </button>
       <ul class="lista-masterfair">
-        <li class="cartao selecionado fundo-1">
+        <li class="cartao selecionado fundo-1" id="Leon">
           <div class="infocard">
             <h2 class="nome">Leon Master Fair</h2>
             <p class="ordem-lancado">MF 01</p>
@@ -80,7 +91,7 @@
             </p>
           </div>
         </li>
-        <li class="cartao fundo-2">
+        <li class="cartao fundo-2" id="Maxie">
           <div class="infocard">
             <h2 class="nome">Maxie Master Fair</h2>
             <p class="ordem-lancado">MF 02</p>
@@ -123,7 +134,7 @@
             </p>
           </div>
         </li>
-        <li class="cartao fundo-3">
+        <li class="cartao fundo-3" id="Archie">
           <div class="infocard">
             <h2 class="nome">Archie Master Fair</h2>
             <p class="ordem-lancado">MF 03</p>
@@ -166,7 +177,7 @@
             </p>
           </div>
         </li>
-        <li class="cartao fundo-4">
+        <li class="cartao fundo-4" id="Lillie">
           <div class="infocard">
             <h2 class="nome">Lillie Master Fair</h2>
             <p class="ordem-lancado">MF 04</p>
@@ -210,7 +221,7 @@
             </p>
           </div>
         </li>
-        <li class="cartao fundo-5">
+        <li class="cartao fundo-5" id="N">
           <div class="infocard">
             <h2 class="nome">N Master Fair</h2>
             <p class="ordem-lancado">MF 05</p>
@@ -253,7 +264,7 @@
             </p>
           </div>
         </li>
-        <li class="cartao fundo-6">
+        <li class="cartao fundo-6" id="Steven">
           <div class="infocard">
             <h2 class="nome">Steven Master Fair</h2>
             <p class="ordem-lancado">MF 06</p>
@@ -297,7 +308,7 @@
             </p>
           </div>
         </li>
-        <li class="cartao fundo-7">
+        <li class="cartao fundo-7" id="SS Lusamine">
           <div class="infocard">
             <h2 class="nome">SS Lusamine Master Fair</h2>
             <p class="ordem-lancado">MF 07</p>
@@ -342,7 +353,7 @@
             </p>
           </div>
         </li>
-        <li class="cartao fundo-8">
+        <li class="cartao fundo-8" id="SSR Cynthia">
           <div class="infocard">
             <h2 class="nome">SS Cynthia Master Fair</h2>
             <p class="ordem-lancado">MF 08</p>
@@ -386,7 +397,7 @@
             </p>
           </div>
         </li>
-        <li class="cartao fundo-9">
+        <li class="cartao fundo-9" id="SS Serena">
           <div class="infocard">
             <h2 class="nome">SS Serena Master Fair</h2>
             <p class="ordem-lancado">MF 09</p>
@@ -428,7 +439,7 @@
             </p>
           </div>
         </li>
-        <li class="cartao fundo-10">
+        <li class="cartao fundo-10" id="SS Ethan">
           <div class="infocard">
             <h2 class="nome">SS Ethan Master Fair</h2>
             <p class="ordem-lancado">MF 10</p>
@@ -471,7 +482,7 @@
             </p>
           </div>
         </li>
-        <li class="cartao fundo-11">
+        <li class="cartao fundo-11" id="SS Lyra">
           <div class="infocard">
             <h2 class="nome">SS Lyra Master Fair</h2>
             <p class="ordem-lancado">MF 11</p>
@@ -514,7 +525,7 @@
             </p>
           </div>
         </li>
-        <li class="cartao fundo-12">
+        <li class="cartao fundo-12" id="SS Kris">
           <div class="infocard">
             <h2 class="nome">SS Kris Master Fair</h2>
             <p class="ordem-lancado">MF 12</p>
@@ -557,7 +568,7 @@
             </p>
           </div>
         </li>
-        <li class="cartao fundo-13">
+        <li class="cartao fundo-13" id="Ash">
           <div class="infocard">
             <h2 class="nome">Ash Master Fair</h2>
             <p class="ordem-lancado">MF 13</p>
@@ -596,7 +607,7 @@
             </p>
           </div>
         </li>
-        <li class="cartao fundo-14">
+        <li class="cartao fundo-14" id="SSA Cynthia">
           <div class="infocard">
             <h2 class="nome">SS Cynthia Master Fair</h2>
             <p class="ordem-lancado">MF 14</p>
@@ -640,7 +651,7 @@
             </p>
           </div>
         </li>
-        <li class="cartao fundo-15">
+        <li class="cartao fundo-15" id="SST Red">
           <div class="infocard">
             <h2 class="nome">SS Red Master Fair</h2>
             <p class="ordem-lancado">MF 15</p>
@@ -684,7 +695,7 @@
             </p>
           </div>
         </li>
-        <li class="cartao fundo-16">
+        <li class="cartao fundo-16" id="Serena Neo">
           <div class="infocard">
             <h2 class="nome">Serena Master Fair</h2>
             <p class="ordem-lancado">MF 16</p>
@@ -728,7 +739,7 @@
             </p>
           </div>
         </li>
-        <li class="cartao fundo-17">
+        <li class="cartao fundo-17" id="Calem Neo">
           <div class="infocard">
             <h2 class="nome">Calem Master Fair</h2>
             <p class="ordem-lancado">MF 17</p>
@@ -773,25 +784,59 @@
           </div>
         </li>
       </ul>
-      <button class="btn-seta" id="btn-avancar">
-        <img src="./src/images/seta.png" alt="Seta - Avançar" />
-      </button>
     </main>
     <footer>
-      <div class="social">
-        <a href="https://www.youtube.com/c/CalixtoFull" target="_blank"
-          ><i class="fab fa-youtube"></i
-        ></a>
-        <a href="https://www.instagram.com/invictusgameplay/" target="_blank"
-          ><i class="fab fa-instagram"></i
-        ></a>
-        <a href="https://twitter.com/FullCalixto" target="_blank"
-          ><i class="fab fa-twitter"></i
-        ></a>
-        <a href="https://discord.gg/QuMMcW28Gf" target="_blank"
-          ><i class="fab fa-discord"></i>
-        </a>
-      </div>
+      <nav class="list">
+        <img class="icon active" src="./src/images/mf/leon.png" id="Leon" />
+
+        <img class="icon" src="./src/images/mf/maxie.png" id="Maxie" />
+
+        <img class="icon" src="./src/images/mf/archie.png" id="Archie" />
+
+        <img class="icon" src="./src/images/mf/lillieanni21.png" id="Lillie" />
+
+        <img class="icon" src="./src/images/mf/nanni21.png" id="N" />
+
+        <img class="icon" src="./src/images/mf/stevenanni21.png" id="Steven" />
+
+        <img
+          class="icon"
+          src="./src/images/mf/sslusamine.png"
+          id="SS Lusamine"
+        />
+
+        <img
+          class="icon"
+          src="./src/images/mf/ssrcynthia.png"
+          id="SSR Cynthia"
+        />
+
+        <img class="icon" src="./src/images/mf/ssserena.png" id="SS Serena" />
+
+        <img class="icon" src="./src/images/mf/ssethan.png" id="SS Ethan" />
+
+        <img class="icon" src="./src/images/mf/sslyra.png" id="SS Lyra" />
+
+        <img class="icon" src="./src/images/mf/sskris.png" id="SS Kris" />
+
+        <img class="icon" src="./src/images/mf/ash.png" id="Ash" />
+
+        <img
+          class="icon"
+          src="./src/images/mf/ssacynthia.png"
+          id="SSA Cynthia"
+        />
+
+        <img class="icon" src="./src/images/mf/sstred.png" id="SST Red" />
+
+        <img
+          class="icon"
+          src="./src/images/mf/champserena.png"
+          id="Serena Neo"
+        />
+
+        <img class="icon" src="./src/images/mf/champcalem.png" id="Calem Neo" />
+      </nav>
     </footer>
     <script src="./src/js/index.js"></script>
   </body>
