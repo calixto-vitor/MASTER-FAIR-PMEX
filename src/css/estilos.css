@@ -23,7 +23,7 @@ a {
 
 .cabecalho .titulo {
   background-color: blueviolet;
-  color: #f1ecff;
+  color: goldenrod;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -93,6 +93,30 @@ a {
   border-radius: 20px;
 }
 
+.cartao .infocardASF {
+  background-color: goldenrod;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px 10px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.cartao .infocardASF .nome {
+  color: black;
+  font-size: 12px;
+}
+
+.cartao .infocardASF .ordem-lancado {
+  background-color: #333;
+  color: yellow;
+  padding: 6px 10px;
+  border-radius: 20px;
+}
+
 .cartao .container-imagem {
   text-align: justify;
 }
@@ -118,6 +142,18 @@ a {
 
 .cartao .links {
   background-color: blueviolet;
+  font-size: 12px;
+  margin: 1px;
+  padding: 5px;
+  text-align: center;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.cartao .linksASF {
+  background-color: goldenrod;
   font-size: 12px;
   margin: 1px;
   padding: 5px;
@@ -193,4 +229,10 @@ i:hover {
 .list img:active,
 .list img:focus {
   background-color: #8351fe;
+}
+
+.list img.ASF:hover,
+.list img.ASF:active,
+.list img.ASF:focus {
+  background-color: goldenrod;
 }

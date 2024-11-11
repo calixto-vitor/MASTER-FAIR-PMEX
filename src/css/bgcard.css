@@ -1,3 +1,5 @@
+/* FUNDO MF */
+
 .fundo-1 {
   background: url(../images/bgcard/Leon_Mindscape.png) no-repeat center;
 }
@@ -122,7 +124,7 @@
 }
 
 .fundo-30 {
-  background: url(../images/bgcard/Silver_Champion_Mindscape.png) no-repeat 
+  background: url(../images/bgcard/Silver_Champion_Mindscape.png) no-repeat
     center;
 }
 
@@ -134,4 +136,26 @@
 .fundo-32 {
   background: url(../images/bgcard/Bianca_Champion_Mindscape.png) no-repeat
     center;
+}
+
+.fundo-33 {
+  background: url(../images/bgcard/nemoma_mindscape00.png) no-repeat center;
+}
+
+.fundo-34 {
+  background: url(../images/bgcard/LEAR_mindscape00.png) no-repeat center;
+}
+
+/* FUNDO ASF */
+
+.fundo-a01 {
+  background: url(../images/bgcard/ARCshirona_mindscape.png) no-repeat center;
+}
+
+.fundo-a02 {
+  background: url(../images/bgcard/daigo_mindscape.png) no-repeat center;
+}
+
+.fundo-a03 {
+  background: url(../images/bgcard/wataru_mindscape.png) no-repeat center;
 }
